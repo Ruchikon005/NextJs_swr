@@ -1,0 +1,97 @@
+.container {
+    /* position: fixed; */
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: rgb(230, 200, 172);
+    /* border: 10px solid rgb(218, 155, 74); */
+}
+.student {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 200px;
+    height: 80px;
+    background-color: rgba(222, 184, 135, 0.658);
+    border: 5px solid peru;
+    border-radius: 7px;
+}
+.containerapi {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    padding-left: 10px;
+    margin: 5px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.containerbutton {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    /* border: 3px solid salmon; */
+}
+.buttonget {
+    margin: 10px;
+    padding: 5px;
+    background-color: rgba(216, 112, 147, 0.678);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.buttonupdate {
+    margin: 10px;
+    padding: 5px;
+    background-color: rgba(37, 129, 37, 0.671);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.buttondelete {
+    margin: 10px;
+    padding: 5px;
+    background-color: rgba(156, 30, 30, 0.678);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.topic {
+    text-align: center;
+    width: 250px;
+    height: 60px;
+    background-color: rgba(222, 184, 135, 0.658);
+    border: 5px solid peru;
+    border-radius: 7px;
+}
+.containerinput {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:flex-start;
+    min-width: 50vw;
+    min-height: 50vh;
+    background-color: rgb(241, 184, 133);
+    border: 5px solid rgba(180, 102, 34, 0.911);
+    border-radius: 10px ;
+}
+.showstd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* border: 5px solid seagreen; */
+}
+.addstd {
+    display: flex;
+    flex-direction: column;
+    /* border: 5px solid slateblue; */
+}
+.buttonadd {
+    padding: 5px;
+    background-color: rgba(129, 89, 223, 0.678);
+    border: 2px solid black;
+    border-radius: 5px;
+}
